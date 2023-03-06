@@ -17,7 +17,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 loaded_model = pickle.load(open('filename', 'rb'))
 
-with open('tfidf1.pkl', 'rb') as f:
+with open('tfidfvec.pickle', 'rb') as f:
 	df = pickle.load(f)
 
 def text_cleaning(line_from_column):
