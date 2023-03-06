@@ -1,8 +1,7 @@
 pandas
 numpy
 streamlit 
-scikit-learn 1.0.
+scikit-learn
 streamlit
 textblob
 nltk
-word_tokenize
