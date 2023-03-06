@@ -1,3 +1,7 @@
 pandas
-sklearn
 streamlit 
+scikit-learn 1.0.
+streamlit
+textblob
+nltk
+word_tokenize
