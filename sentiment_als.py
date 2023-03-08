@@ -44,10 +44,10 @@ if __name__ == '__main__':
         i = text_cleaning(sentence)
         clean_text.append(i)
         data = df.fit_transform([clean_text])
-        vec = data.toarray()
+        
 
         # st.info(data)
-        prediction = loaded_model.predict(vec)
+        prediction = loaded_model.predict(data)
 
         prediction_prob_negative = prediction[0][-1]
         prediction_prob_neutral = prediction[0][0]
